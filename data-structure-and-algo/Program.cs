@@ -1,4 +1,5 @@
 ﻿using data_structure_and_algo.List;
+using data_structure_and_algo.Recursion;
 using System;
 
 namespace data_structure_and_algo
@@ -8,6 +9,7 @@ namespace data_structure_and_algo
         static void Main(string[] args)
         {
             TestLinkedList.Test();
+            TestRecursion.Test();
             Console.ReadLine();
         }
     }

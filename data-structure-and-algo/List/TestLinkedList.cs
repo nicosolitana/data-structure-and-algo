@@ -42,7 +42,6 @@ namespace data_structure_and_algo.List
             dnLst.insert(15);
             dnLst.display();
             Console.WriteLine("Length of the doubly linkednodelist is " + dnLst.length());
-            Console.ReadLine();
         }
     }
 }
