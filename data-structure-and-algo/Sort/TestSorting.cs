@@ -19,6 +19,13 @@ namespace data_structure_and_algo.Sort
             Console.WriteLine("Before Array: [ {0} ]", string.Join(" ,", qarr));
             QuickSorting.QuickSort(qarr, 0, 9 - 1);
             Console.WriteLine("After Array: [ {0} ]", string.Join(" ,", qarr));
+
+            int[] harr = { 12, 11, 13, 5, 6, 7 };
+            Console.WriteLine("\nHeap Sort");
+            Console.WriteLine("Before Array: [ {0} ]", string.Join(" ,", harr));
+            HeapSorting.HeapSort(harr);
+            Console.WriteLine("After Array: [ {0} ]", string.Join(" ,", harr));
+
         }
     }
 }
