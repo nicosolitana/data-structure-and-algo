@@ -5,7 +5,19 @@ namespace data_structure_and_algo.List.LinkedList
 {
     class SinglyLinkedLst
     {
+        //private Node _head;
         private Node head;
+        //public Node head
+        //{
+        //    get
+        //    {
+        //        return head;
+        //    }
+        //    set
+        //    {
+        //        _head = value;
+        //    }
+        //}
 
         public void insert(int data)
         {
@@ -46,6 +58,20 @@ namespace data_structure_and_algo.List.LinkedList
         public void delete()
         {
             head = head.nextNode;
+        }
+
+        public void deleteData(int data)
+        {
+            Node current = this.head;
+
+            while (current != null)
+            {
+                if (current.Data == data)
+                {
+                    current = current.nextNode;
+                    break;
+                }
+            }
         }
 
         public void display()
